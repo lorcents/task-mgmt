@@ -4,14 +4,15 @@ Front end and backend for task management written in react ,express,sequelize an
 
 ## Front End-How to run
 
-cd task-management-frontend
-Run npm install
-Run npm start
+<li>cd task-management-frontend</li>
+<li>Run npm install</li>
+<li>Run npm start</li>
 
 ## Backend -How to run
 
-create a database called task_management
-cd task-management-backend
-Run npm install
-Run npx sequelize-cli db:migrate
-Run node src/app.js
+<li>create a database called task_management</li>
+<li>cd task-management-backend</li>
+<li>Inside config folder ,config.json file change database credential to your own</li>
+<li>Run npm install</li>
+<li>Run npx sequelize-cli db:migrate</li>
+<li>Run node src/app.js</li>
